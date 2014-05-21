@@ -10,7 +10,8 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery-1.9.1.min
+//= require jquery
+//= require jquery_ujs
 //= require jquery-easing-1.3
 //= require modernizr
 //= require retina
@@ -27,6 +28,6 @@
 //= require scrollup
 //= require preloader
 
-$( document ).ready(function() {
+$(document).ready(function() {
   alert('hello!')
 });
