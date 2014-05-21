@@ -16,7 +16,6 @@
 //= require retina
 //= require jquery.gomap-1.3.2.min
 //= require jquery.isotope.min
-//= require jquery.ba-bbq.min
 //= require jquery.isotope.load_home
 //= require jquery.form
 //= require input.fields
