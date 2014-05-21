@@ -26,3 +26,7 @@
 //= require image-hover
 //= require scrollup
 //= require preloader
+
+$( document ).ready(function() {
+  alert('hello!')
+});
