@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+	<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+	<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+	<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+	<!--[if IE 9]> <html class="no-js ie9 oldie" lang="en"> <![endif]-->
+	<!--[if gt IE 8]><!--> <html class="no-js"  dir="ltr" lang="en-US"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<!-- Set the viewport width to device width for mobile -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="author" content="ppandp">
+		<meta name="Description" content="Colourstory - Abstract representations of your life with colour" />
+		<%= csrf_meta_tags %>
+
+		<title>Colourstory | Abstract Representations of your life with colour</title>
+		<%= stylesheet_link_tag "application" %>
+		<!--[if gt IE 8]><!--><link href="assets/retina-responsive.css" rel="stylesheet" type="text/css" media="screen" /><!--<![endif]-->
+		<!--[if !IE]> <link href="assets/retina-responsive.css" rel="stylesheet" type="text/css" media="screen" /> <![endif]-->
+		<!--[if gt IE 6]> <link href="assets/styles-ie.css" rel="stylesheet" type="text/css" media="screen" /> <![endif]-->
+
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700,600,800' rel='stylesheet' type='text/css' />
+		<link href='http://fonts.googleapis.com/css?family=Lora:400italic,700italic' rel='stylesheet' type='text/css' />
+		<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	</head>
+	<body>
+
+		<%= yield %>
+
+		<script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
+		<%= javascript_include_tag "application" %>
+
+	</body>
+</html>

@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* =Clearfix
+--------------------------------------------------------------------------------------------------------*/
+.clear { clear: both; }
+.clearfix:after { content: "."; display:block; height:0; clear:both; visibility:hidden; }/* ----- clear fix for floats ----- */
+.clearfix { display:inline-block; }
+* html .clearfix { height:1%; }/* hides clearfix from IE-mac */
+.clearfix { display:block; }/* end hide from IE-mac */
+.alignleft { float:left; }
+.alignright { float:right; }
+.aligncenter { margin:auto; display:block; }
+.alignnone { clear:both; font-size:0; line-height:0; margin:0; padding:0; border:0; height:0; width:0; }
+.centered { text-align:center; }
+/* End Clearfix
+--------------------------------------------------------------------------------------------------------*/
+
+
+/* =Preloader
+--------------------------------------------------------------------------------------------------------*/
+#preloader { position:absolute; top:0; left:0; right:0; bottom:0; background-color:#e9e9e9; z-index:99; }
+#status { width:200px; height:200px; position:absolute; left:50%; top:50%; background-image:url(../assets/ajax-loader.gif); background-repeat:no-repeat; background-position:center; margin:-100px 0 0 -100px; }
+/* End Preloader
+--------------------------------------------------------------------------------------------------------*/
+
+
+/* =Typography
+--------------------------------------------------------------------------------------------------------*/
+html {overflow: -moz-scrollbars-vertical; overflow-y: scroll; }
+html, body, #wrap {height: 100%;}
+body > #wrap {height: auto; min-height: 100%;}
+#content {padding-bottom: 162px;}
+#wrap { border:10px solid #e9e9e9; border-bottom:0 }
+body { font: 15px "Lora", Georgia, "Times New Roman", Times, serif; color:#555; background:#fff; }
+strong { font-weight:bold; }
+a, a > * {-webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; }
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding: 0; margin: 0; }
+p { line-height:1.5; font-style:italic; padding:13px 40px 0 40px; }
+p.small, p span.small {font:11px 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; text-transform:uppercase; font-style:normal; }
+.no-h2 { margin-top:21px; }
+blockquote {padding-left:40px; padding-right:40px; }
+blockquote span {font:11px 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; text-transform:uppercase; color:#8d8d8d; }
+p.floated {float:left; width:309px; }
+.floated.first {padding-right:15px; }
+.floated.second {padding-left:15px; }
+a { color:#8d8d8d; text-decoration:none; }
+a:hover { text-decoration:none; color:#555; }
+span.arrow {font:13px 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; }
+em {font-family:'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-style:normal; font-weight:600 }
+code {font:13px 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-style:normal; line-height:1.5; display:block; }
+pre { padding:13px 40px 0 40px; }
+/* End Typography
+--------------------------------------------------------------------------------------------------------*/
+
+
+/* =Headings
+--------------------------------------------------------------------------------------------------------*/
+h1#logo { position:relative; margin:0 auto; width:300px; z-index:401; margin-bottom:27px; text-align:center }
+h1#logo.left { margin:0; margin-bottom:27px; }
+h1#logo a { display:inline-block; background:url(../assets/bg-logo.png) no-repeat; background-size:225px 59px; width:225px; height:59px; text-indent:-9999px; }
+h1#logo.left a { background:url(../assets/bg-logo2.png) no-repeat; background-size:225px 59px; }
+.hentry h1, h2, h3, h4 { line-height:1.5; font-family:'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; }
+.hentry h1, h2 { font-size:18px; font-weight:700; color:#2b2b2b; margin:0px 40px 6px 40px; padding-bottom:19px; padding-top:32px; text-transform:uppercase; letter-spacing:2px; border-bottom:1px solid #d3d3d3; display:block }
+h3 {font-size:15px; font-weight:600; padding:13px 40px 1px 40px; }
+h4 {font-size:13px; font-weight:600; letter-spacing:1px; text-transform:uppercase; padding:15px 40px 1px 40px; }
+/* End Headings
+--------------------------------------------------------------------------------------------------------*/
+
+
+/* =Main Content
+--------------------------------------------------------------------------------------------------------*/
+#wrapper { margin-top:0px; width:940px; position:relative; z-index:29; margin:0 auto; margin-bottom:20px; padding-top:53px; border-bottom:1px solid #d3d3d3 }
+.container { padding:0px; width:960px; position:relative; margin:0 auto;}
+#container {margin-bottom:65px; }
+
+.col1-1 { width:940px; height:auto; margin:10px; float:left; }
+.col1-3 { width:300px; height:300px; margin:10px; float:left; }
+.border { border-top:2px solid #555; border-bottom:2px solid #555; }
+.complete-border {border:1px solid #555; padding-top:1px; padding-bottom:1px; }
+.hidden {position:absolute; top:0; left:0; width:300px; height:300px; }
+.movable-content {position:absolute; width:300px; height:300px; z-index:11; cursor:pointer }
+.element {position:relative; /*background:#e9e9e9*/ }
+.col2-3 { width:620px; height:620px; margin:10px; float:left; }
+.col2-3.half {height:300px }
+.col1-3.double {height:620px; }
+.auto {height:auto; padding-bottom:37px; }
+.auto-image {height:auto }
+.button {border-bottom:2px solid #ccc; background:#d6d6d6; text-align:center; color:#2b2b2b; }
+
+.bottom {position:absolute; bottom:0px; padding-bottom:36px; }
+.break { height:10px; position:relative; display:block }
+.overlay { display:block; position:absolute; top:0; /*left:0;*/ background:url(../assets/bg-overlay3.png) repeat; z-index:10; width:960px; height:960px; /*-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; -moz-opacity: 0; -khtml-opacity: 0; opacity: 0;*/ }
+.overlay2 { display:block; position:absolute; top:0; /*left:0;*/ background:url(../assets/bg-overlay3.png) repeat; z-index:10; width:960px; height:960px; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; -moz-opacity: 0; -khtml-opacity: 0; opacity: 0; }
+.overflow, .element {overflow:hidden; }
+/* =End Main Content
+--------------------------------------------------------------------------------------------------------*/
+
+
+/* =Googlemaps
+--------------------------------------------------------------------------------------------------------*/
+#map {width:620px; height:620px; margin:0; border:0}
+#map:before, #map:after {background: none; content: ''; left: 0;	position: absolute;	top: 0;	width: 100%; }
+#map:after {bottom: 0; top: auto; }
+/* End Googlemaps
+--------------------------------------------------------------------------------------------------------*/
+
+
+/* =Image Hover
+--------------------------------------------------------------------------------------------------------*/
+.images img {width:100%; display: block; position:relative; max-width: 100% !important; z-index:9 }
+.images {overflow:hidden }
+
+.icons { position:absolute; bottom:40px; right:40px; height:48px; width:48px; z-index:100;  pointer-events: none; -webkit-transition: all 0s ease 0s; -moz-transition: all 0s ease 0s; -o-transition: all 0s ease 0s; transition: all 0s ease 0s; }
+.border .icons, .complete-border .icons { opacity:1 !important }
+.linkedin {background:url(../assets/bg-linkedin.png) center no-repeat; background-size:50px 50px; }
+.dribbble {background:url(../assets/bg-dribbble.png) center no-repeat; background-size:50px 51px; }
+.googleplus {background:url(../assets/bg-googleplus.png) center no-repeat; background-size:50px 50px; }
+.twitter {background:url(../assets/bg-twitter.png) center no-repeat; background-size:50px 51px; } 
+.facebook {background:url(../assets/bg-facebook.png) center no-repeat; background-size:50px 51px; }
+.behance {background:url(../assets/bg-behance.png) center no-repeat; background-size:50px 50px; }
+.skype {background:url(../assets/bg-skype.png) center no-repeat; background-size:50px 51px; }
+.link {background:url(../assets/bg-link.png) center no-repeat; background-size:48px 48px; }
+.video {background:url(../assets/bg-video.png) center no-repeat; background-size:48px 48px; }
+.zoom {background:url(../assets/bg-zoom.png) center no-repeat; background-size:48px 48px; }
+.quote {background:url(../assets/bg-quote.png) center no-repeat; background-size:48px 48px; }
+.profile {background:url(../assets/bg-profile.png) center no-repeat; background-size:48px 48px; }
+.tags {background:url(../assets/bg-tags.png) center no-repeat; background-size:48px 48px; }
+.more {background:url(../assets/bg-more.png) center no-repeat; background-size:48px 48px; }
+.detail {background:url(../assets/bg-detail.png) center no-repeat; background-size:48px 48px; }
+.email {background:url(../assets/bg-email.png) center no-repeat; background-size:48px 48px; }
+
+.title, .subtitle { z-index:1001; position:absolute; top:35px; left:40px; width:auto; font-weight:600; cursor:pointer; pointer-events: none; }
+.subtitle { top: 56px; font-weight: 400; left:40px !important; }
+.title-wrap, .subtitle-wrap { overflow: hidden; position: relative; }
+.title-wrap h3, .subtitle-wrap p { overflow: hidden; white-space: nowrap; color:#fff; padding:0px; font-weight:700; text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3); }
+.title-wrap h3 {font-size:14px; letter-spacing:1px; text-transform:uppercase; }
+.subtitle-wrap p {font-size:13px; font-weight:400; /*font-family:'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-style:normal*/}
+
+.hidden-infos a {position:absolute; top:0; left:0; width:100%; height:100%; z-index:1000 }
+.hidden-infos { display:none; position:absolute; top:0; left:0; width:100%; height:100%; z-index:1000 }
+/* End Image Hover
+--------------------------------------------------------------------------------------------------------*/
+
+
+/* =Lists
+--------------------------------------------------------------------------------------------------------*/
+ul.unordered-list, .hentry ul { list-style: disc; line-height:1.5; padding:13px 40px 0 40px; margin-left:18px; text-align:left !important; font-style:italic;}
+ol { list-style: decimal; line-height:1.5; padding:13px 40px 0 40px; margin-left:20px; text-align:left !important; font-style:italic;}
+/* =End Lists
+--------------------------------------------------------------------------------------------------------*/
+
+
+/* =Footer
+--------------------------------------------------------------------------------------------------------*/
+footer { height:145.8px; margin-top: -145.8px; background:#d6d6d6; position:relative; color:#2b2b2b; border:10px solid #fff; border-top:0;  }
+footer p.small {font: 13px "Lora", Georgia, "Times New Roman", Times, serif; font-style:italic; text-transform:none }
+/* End Footer
+--------------------------------------------------------------------------------------------------------*/
+
+
+/* =Social
+--------------------------------------------------------------------------------------------------------*/
+ul.social { padding-top:33.3px; letter-spacing:0; }
+.social li { display:inline-block; margin:0px 5px;}
+.social li a { display:block; -webkit-transition: all 0.3s ease 0s; -moz-transition: all 0.3s ease 0s; -o-transition: all 0.3s ease 0s; transition: all 0.3s ease 0s; }
+ul.social a {text-indent:-9000px; text-decoration:none; height:52px; width:52px;}
+/* End Social
+--------------------------------------------------------------------------------------------------------*/
+
+
+/* =Isotope
+--------------------------------------------------------------------------------------------------------*/
+.isotope-item { z-index: 2; overflow:hidden }
+.isotope-hidden.isotope-item { pointer-events: none; z-index: 1; }
+/**** Isotope CSS3 transitions ****/
+.isotope, .isotope .isotope-item { -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -ms-transition-duration: 0.5s; -o-transition-duration: 0.5s; transition-duration: 0.5s; }
+.isotope { -webkit-transition-property: height, width; -moz-transition-property: height, width; -ms-transition-property: height, width; -o-transition-property: height, width; transition-property: height, width; }
+.isotope .isotope-item { -webkit-transition-property: -webkit-transform, opacity; -moz-transition-property:    -moz-transform, opacity; -ms-transition-property:     -ms-transform, opacity; -o-transition-property:         top, left, opacity; transition-property:         transform, opacity; }
+/**** disabling Isotope CSS3 transitions ****/
+.isotope.no-transition, .isotope.no-transition .isotope-item, .isotope .isotope-item.no-transition { -webkit-transition-duration: 0s; -moz-transition-duration: 0s; -ms-transition-duration: 0s; -o-transition-duration: 0s; transition-duration: 0s; }
+/* End: Recommended Isotope styles */
+
+/* disable CSS transitions for containers with infinite scrolling*/
+.isotope.infinite-scrolling { -webkit-transition: none; -moz-transition: none; -ms-transition: none; -o-transition: none; transition: none; }
+
+#options { width:100%; z-index:300; position:absolute; top:63px; }
+#options ul { margin: 0; list-style: none; display:block; width:100%  }
+#options.right ul {float:right; width:auto; display:inline-block }
+#options li { cursor:pointer; }
+#options.right li {float:left; margin-left:34px; }
+#options li a { color:#8d8d8d; font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size:12px; font-weight:normal; text-decoration:none; text-transform:uppercase; display:inline-block; padding:0px; margin:0px; }
+#options li.alignleft { margin-right:34px; }
+#options li.alignright { margin-left:34px; }
+#options li a.selected, #options li:hover a { color:#2b2b2b; /*border-bottom:1px solid #555;*/ }
+.menu-line {width:0; height:1px; background:#555; display:block }
+/* End Isotope
+--------------------------------------------------------------------------------------------------------*/
+
+
+/* =Backtotop
+--------------------------------------------------------------------------------------------------------*/
+#backtotop { height:auto; position:fixed; right:30px; bottom:40px; display:none; z-index:30; }
+#backtotop ul { padding:15px 0px; }
+#backtotop ul li a { background:url(../assets/bg-up.png) center top no-repeat; background-size:48px 48px; display:block; width:48px; height:48px; float:right; right:10px; text-indent:-9000px; }
+#backtotop ul li a:hover { height:58px; }
+/* End Backtotop
+--------------------------------------------------------------------------------------------------------*/
