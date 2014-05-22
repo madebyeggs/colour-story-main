@@ -153,5 +153,7 @@ application.js: application-a4b69dae27750c9affd5a028c0841965.js
 application/index.js: application-a4b69dae27750c9affd5a028c0841965.js
 application.css: application-f46ea9a6314799a614f9af9820764c2e.css
 application/index.css: application-f46ea9a6314799a614f9af9820764c2e.css
+retina-responsive.css: retina-responsive-283d5712e914456210b73247f7ac36d8.css
+retina-responsive/index.css: retina-responsive-283d5712e914456210b73247f7ac36d8.css
 jquery.min.map: jquery.min-388372ef65cc311f6a3df4a6ceac8d22.map
 jquery/index.min.map: jquery.min-388372ef65cc311f6a3df4a6ceac8d22.map
