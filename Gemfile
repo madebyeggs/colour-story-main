@@ -3,6 +3,9 @@ ruby "1.9.3"
 
 gem 'rails', '3.2.13'
 gem 'jquery-rails', '2.2.1'
+gem 'feedjira', '~> 1.0'
+gem 'twitter'
+gem 'dotenv-rails'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
