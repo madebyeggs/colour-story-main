@@ -1,6 +1,6 @@
 class ChangeContentInWritings < ActiveRecord::Migration
   def up
-      change_column :writings, :content, :text
+      change_column :writings, :content, :text, :limit => nil
   end
   def down
       # This might cause trouble if you have strings longer

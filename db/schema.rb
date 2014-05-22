@@ -14,14 +14,14 @@
 ActiveRecord::Schema.define(:version => 20140522142723) do
 
   create_table "writings", :force => true do |t|
-    t.datetime "created_at",                 :null => false
-    t.datetime "updated_at",                 :null => false
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
     t.string   "name"
     t.text     "summary"
     t.string   "url"
     t.datetime "publishedat"
     t.string   "guid"
-    t.text     "content",     :limit => 255
+    t.text     "content"
     t.string   "author"
   end
 
