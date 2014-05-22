@@ -8,9 +8,18 @@
     		<!--<li class="alignleft"><a href="#filter=.home" class="selected">Home</a>
       			<div class="menu-line"></div>
     		</li>-->
-    		<li class="alignleft"><a href="#filter=.services">About the app</a>
-      			<div class="menu-line"></div>
-    		</li>
+    		<% if controller.controller_name == "clientfacing" %>
+				<li class="alignleft"><a href="#filter=.services">About the app</a>
+      				<div class="menu-line"></div>
+    			</li>
+			<% else %>
+				<li class="alignleft"><a href="#filter=.home">Home</a>
+      				<div class="menu-line"></div>
+    			</li>
+				<li class="alignleft"><a href="#filter=.services">About the project</a>
+      				<div class="menu-line"></div>
+    			</li>
+			<% end %>
 	        <li class="alignleft"><a href="#filter=.about">About us</a>
 	          	<div class="menu-line"></div>
 	        </li>
@@ -20,9 +29,11 @@
 	        <li class="alignright"><a href="#filter=.blog">Blog</a>
 	          	<div class="menu-line"></div>
 	        </li>
-	        <!--<li class="alignright"><a href="">Our Ethos</a>
+			<% if controller.controller_name == "home" %>
+	        <li class="alignright"><a href="">Our Ethos</a>
 	          	<div class="menu-line"></div>
-	        </li>-->
+	        </li>
+			<% end %>
   		</ul>
 	</div>
 	<!-- end nav -->
