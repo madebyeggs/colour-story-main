@@ -78,7 +78,7 @@ h4 {font-size:13px; font-weight:600; letter-spacing:1px; text-transform:uppercas
 .col1-3 { width:300px; height:300px; margin:10px; float:left; }
 .border { border-top:2px solid #555; border-bottom:2px solid #555; }
 .complete-border {border:1px solid #555; padding-top:1px; padding-bottom:1px; }
-.hidden {position:absolute; top:0; left:0; width:300px; height:300px; }
+.hidden {position:absolute; top:0; left:0; width:300px; height:300px;background-color:white!important; }
 .movable-content {position:absolute; width:300px; height:300px; z-index:11; cursor:pointer }
 .element {position:relative; /*background:#e9e9e9*/ }
 .col2-3 { width:620px; height:620px; margin:10px; float:left; }
@@ -161,8 +161,8 @@ footer p.small {font: 13px "Lora", Georgia, "Times New Roman", Times, serif; fon
 
 /* =Social
 --------------------------------------------------------------------------------------------------------*/
-ul.social { padding-top:33.3px; letter-spacing:0; }
-.social li { display:inline-block; margin:0px 5px;}
+ul.social { padding-top:13.3px!important; letter-spacing:0; }
+.social li { display:inline-block; margin:-10px 5px 10px 5px;}
 .social li a { display:block; -webkit-transition: all 0.3s ease 0s; -moz-transition: all 0.3s ease 0s; -o-transition: all 0.3s ease 0s; transition: all 0.3s ease 0s; }
 ul.social a {text-indent:-9000px; text-decoration:none; height:52px; width:52px;}
 /* End Social
