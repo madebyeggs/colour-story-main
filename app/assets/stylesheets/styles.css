@@ -90,8 +90,8 @@ h4 {font-size:13px; font-weight:600; letter-spacing:1px; text-transform:uppercas
 
 .bottom {position:absolute; bottom:0px; padding-bottom:36px; }
 .break { height:10px; position:relative; display:block }
-.overlay { display:block; position:absolute; top:0; /*left:0;*/ background:url(../assets/bg-overlay3.png) repeat; z-index:10; width:960px; height:960px; /*-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; -moz-opacity: 0; -khtml-opacity: 0; opacity: 0;*/ }
-.overlay2 { display:block; position:absolute; top:0; /*left:0;*/ background:url(../assets/bg-overlay3.png) repeat; z-index:10; width:960px; height:960px; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; -moz-opacity: 0; -khtml-opacity: 0; opacity: 0; }
+.overlay { display:block; position:absolute; top:0; /*left:0;*/ background:url(../assets/bg-overlay.png) repeat; z-index:10; width:960px; height:960px; /*-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; -moz-opacity: 0; -khtml-opacity: 0; opacity: 0;*/ }
+.overlay2 { display:block; position:absolute; top:0; /*left:0;*/ background:url(../assets/bg-overlay.png) repeat; z-index:10; width:960px; height:960px; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; -moz-opacity: 0; -khtml-opacity: 0; opacity: 0; }
 .overflow, .element {overflow:hidden; }
 /* =End Main Content
 --------------------------------------------------------------------------------------------------------*/

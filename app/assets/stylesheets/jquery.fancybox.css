@@ -147,7 +147,7 @@
 	left: -70px;
 	width: 48px;
 	height: 48px;
-	background: url(../assets/bg-prev.png) center no-repeat;
+	background: url(../assets/bg-prev2.png) center no-repeat;
 	background-size:48px 48px;
 	cursor: pointer;
 	z-index: 8040;
@@ -158,7 +158,7 @@
 	right: -70px;
 	width: 48px;
 	height: 48px;
-	background: url(../assets/bg-next.png) center no-repeat;
+	background: url(../assets/bg-next2.png) center no-repeat;
 	background-size:48px 48px;
 	cursor: pointer;
 	z-index: 8040;

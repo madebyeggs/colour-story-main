@@ -1,0 +1,14 @@
+<div class="element clearfix col1-2 border blog auto">
+  	<h2>Latest From Our Blog</h2>
+	<% @feeds.each do |entry| %>
+  	<p>
+		<a href="<%= entry.url %>">
+			<%= entry.name %>
+			<span class="arrow"> →</span>
+		</a>
+		<br />
+    	<span class="small"><%= entry.author %></span>
+	</p>
+	<% end %>
+	<br/><a href="http://www.arthurbuxton.com/" target="_blank"><h3>SEE ALL</h3></a>
+</div>

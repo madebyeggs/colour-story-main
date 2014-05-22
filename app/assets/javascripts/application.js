@@ -27,6 +27,7 @@
 //= require image-hover
 //= require scrollup
 //= require preloader
+//= require jquery.fitvids
 
 $(document).ready(function() {
     // Open all external links in a new tab
@@ -40,5 +41,6 @@ $(document).ready(function() {
 	       });
 	   }
 	});
+	$(".video").fitVids();
 });
 

@@ -1,0 +1,27 @@
+<div id="wrap">
+	<!-- Preloader -->
+  	<div id="preloader">
+    	<div id="status">&nbsp;</div>
+  	</div>
+
+	<%= render 'layouts/header' %>
+	
+  	<div id="content">
+    	<div class="container">
+      		<div id="container" class="clearfix">
+        		
+				<%= render :partial => 'home' %>
+        		<%= render :partial => 'portfolio' %>
+				<%= render :partial => 'contact' %>
+				<%= render :partial => 'services' %>
+				<%= render :partial => 'about' %>
+				<%= render :partial => 'blog' %>
+        
+      </div>
+      <!-- end container -->
+    </div>
+  </div>
+  <!-- end content -->
+</div>
+<!-- end wrap -->
+<%= render 'layouts/footer' %>
