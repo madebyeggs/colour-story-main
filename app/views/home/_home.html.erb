@@ -18,7 +18,12 @@
       		</li>
 			<li>
         		<div class="images">
-          			<img src="assets/slide03a.jpg" alt="" />
+					<div class="speech"><%= link_to image_tag('speech.png'), "https://twitter.com/Colourstoryapp", :target => "_blank" %></div>
+          			<ul class='tweets'>
+					  <% @tweets.each do |tweet| %>
+					    <li class="tweet">"<%= tweet.text.html_safe %>"</li>
+					  <% end %>
+					</ul>
           			<div class="caption">
             			<p>3 <span>of</span> 3</p>
           			</div>

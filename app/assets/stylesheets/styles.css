@@ -64,6 +64,8 @@ h1#logo.left a { background:url(../assets/bg-logo2.png) no-repeat; background-si
 .hentry h1, h2 { font-size:18px; font-weight:700; color:#2b2b2b; margin:0px 40px 6px 40px; padding-bottom:19px; padding-top:32px; text-transform:uppercase; letter-spacing:2px; border-bottom:1px solid #d3d3d3; display:block }
 h3 {font-size:15px; font-weight:600; padding:13px 40px 1px 40px; }
 h4 {font-size:13px; font-weight:600; letter-spacing:1px; text-transform:uppercase; padding:15px 40px 1px 40px; }
+.tweet {position:absolute;line-height:1.2; font-family:"Lora", 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;width:320px;margin:-352px auto 300px 210px;font-size:1.4em;font-style:italic;}
+.speech {margin:50px auto;width:550px;}.speech img {max-width:100%;}
 /* End Headings
 --------------------------------------------------------------------------------------------------------*/
 
