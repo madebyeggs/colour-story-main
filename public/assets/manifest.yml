@@ -105,6 +105,8 @@ bg-zoom@2x.png: bg-zoom@2x-faa072c2a17635588355b0e78d1fe6c3.png
 bg-zoom@2x/index.png: bg-zoom@2x-faa072c2a17635588355b0e78d1fe6c3.png
 blog01.jpg: blog01-4adf494002483f4c2704e4c620d833b4.jpg
 blog01/index.jpg: blog01-4adf494002483f4c2704e4c620d833b4.jpg
+ethos.png: ethos-169167c8f3bda431ad7866557ae1dbf5.png
+ethos/index.png: ethos-169167c8f3bda431ad7866557ae1dbf5.png
 homepage2.png: homepage2-b5c71a4b2a8f90edfa64d3f5194b1eb0.png
 homepage2/index.png: homepage2-b5c71a4b2a8f90edfa64d3f5194b1eb0.png
 ios7-icons.png: ios7-icons-21780cc274d959a1383d0b0f08e95e19.png
@@ -159,8 +161,8 @@ speech.png: speech-e1046f5b29d5ac3d1b1e0c206133ecba.png
 speech/index.png: speech-e1046f5b29d5ac3d1b1e0c206133ecba.png
 application.js: application-e1f573cdd7d9dc4a73da1776c1f91d3b.js
 application/index.js: application-e1f573cdd7d9dc4a73da1776c1f91d3b.js
-application.css: application-d4fbbd7e64eaf6c586564cf2d336731b.css
-application/index.css: application-d4fbbd7e64eaf6c586564cf2d336731b.css
+application.css: application-0751fe239d869ffc00b9797cb54468da.css
+application/index.css: application-0751fe239d869ffc00b9797cb54468da.css
 retina-responsive.css: retina-responsive-537c925fbf14691f3da00b2850267499.css
 retina-responsive/index.css: retina-responsive-537c925fbf14691f3da00b2850267499.css
 jquery.min.map: jquery.min-388372ef65cc311f6a3df4a6ceac8d22.map
