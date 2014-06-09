@@ -208,3 +208,8 @@ ul.social a {text-indent:-9000px; text-decoration:none; height:52px; width:52px;
 #backtotop ul li a:hover { height:58px; }
 /* End Backtotop
 --------------------------------------------------------------------------------------------------------*/
+
+.inPlace {position:absolute;margin:-283px 0px 0px 95px;font-size:24px;line-height:63.5px;}
+@media only screen and (min-width: 768px) and (max-width: 959px) {.inPlace {font-size:20px;}}
+@media only screen and (max-width: 767px) {.inPlace {margin:-145px 0px 0px 42px;font-size:14px;line-height:30px;}.ethos {width:40px;}.ethos img {max-width:100%;}}
+	
