@@ -18,7 +18,7 @@
       		</li>
 			<li>
         		<div class="images">
-					<div class="speech"><%= link_to image_tag('speech.png'), "https://twitter.com/Colourstoryapp", :target => "_blank" %></div>
+					<div class="speech"><%= link_to image_tag('speech.png', :class => "speechImg"), "https://twitter.com/Colourstoryapp", :target => "_blank" %></div>
           			<ul class='tweets'>
 					  <% @tweets.each do |tweet| %>
 					    <li class="tweet">"<%= tweet.text.html_safe %>"</li>
