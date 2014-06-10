@@ -1,40 +1,17 @@
-<div class="element  clearfix col2-3 home margin-bottom">
-	<div class="flexslider">
-    	<ul class="slides">
-      		<li>
-        		<div class="images">
-          			<img src="assets/slide01.jpg" alt="" />
-          			<div class="caption">
-            			<p>1 <span>of</span> 3</p>
-          			</div>
-        		</div>
-      		</li>
-      		<li>
-        		<div class="images half video">
-					<iframe width="640" height="480" 
-					src="https://www.kickstarter.com/projects/highbrowcoldbrew/highbrow-cold-brew-coffee-concentrate/widget/video.html" 
-					frameborder="0" scrolling="no"> </iframe>
-        		</div>
-      		</li>
-			<li>
-        		<div class="images">
-					<div class="speech"><%= link_to image_tag('speech.png', :class => "speechImg"), "https://twitter.com/Colourstoryapp", :target => "_blank" %></div>
-          			<ul class='tweets'>
-					  <% @tweets.each do |tweet| %>
-					    <li class="tweet">"<%= tweet.text.html_safe %>"</li>
-					  <% end %>
-					</ul>
-          			<div class="caption">
-            			<p>3 <span>of</span> 3</p>
-          			</div>
-        		</div>
-      		</li>
-    	</ul>
+<div class="element clearfix col2-3 home deep">
+	<div class="images half video">
+		<iframe src="//player.vimeo.com/video/97825721?title=0&amp;byline=0&amp;portrait=0" 
+		width="640" height="349" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   	</div>
 </div>
-<div class="element clearfix col1-3 border home">
+<div class="element clearfix col1-3 border home deep">
 	<h2>Welcome</h2>
-  	<p>Hi, we’re Colourstory; where you can create and share abstract representations of your life with colour. </p>
+  	<p>Welcome to Colourstory, the brainchild of British artist Arthur Buxton. Colourstory is a free platform that lets you create and share beautiful representations of your life with colour using any set of images. Check out our Kickstarter campaign. </p>
+</div>
+<div class="element col1-3 home">
+	<div class="images">
+		<%= image_tag('homeLeft.jpg') %>
+	</div>
 </div>
 <div class="element clearfix col1-3 home">
 	<div class="flexslider">
@@ -51,5 +28,10 @@
 		  	</div>
 		</li>
 	</ul>
+	</div>
+</div>
+<div class="element clearfix col1-3 home deep">
+	<div class="images">
+		<%= image_tag('homeRight.jpg') %>
 	</div>
 </div>
