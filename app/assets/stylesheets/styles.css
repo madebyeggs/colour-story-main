@@ -209,11 +209,12 @@ ul.social a {text-indent:-9000px; text-decoration:none; height:52px; width:52px;
 /* End Backtotop
 --------------------------------------------------------------------------------------------------------*/
 
-.inPlace {position:absolute;margin:-283px 0px 0px 95px;font-size:24px;line-height:63.5px;}
+.inPlace {position:absolute;margin:-266px 0px 0px 95px;font-size:20px;line-height:59px;}
 .deep {height:337px!important;}
 .down {margin-top:28px!important;}
 .blogPictures {position:absolute;margin:-751px 0 0 0;right:0;}
 .blogPicture {display:block;}
+.ethos {width:77px;}.ethos img {max-width:100%;}
 @media only screen and (min-width: 768px) and (max-width: 959px) {.inPlace {font-size:20px;}}
 @media only screen and (max-width: 960px) {
 	.blogPictures {display:none;}
