@@ -6,6 +6,7 @@ gem 'jquery-rails', '2.2.1'
 gem 'feedjira', '~> 1.0'
 gem 'twitter', :git => 'https://github.com/sferik/twitter.git'
 gem 'dotenv-rails'
+gem 'newrelic_rpm'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
